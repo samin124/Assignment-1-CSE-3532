@@ -1,0 +1,360 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Lobster', cursive;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/*----TASK-1 starts-------*/
+.p1{
+    color:rgb(9, 9, 128);
+    font-weight:600;
+    text-align: center;
+    font-size: larger;
+    margin-top:30px;
+}
+.div-1{
+    display:flex;
+    justify-content:center;
+    margin:0 auto;
+    margin-top: 20px;
+    align-items: center;
+   
+}
+.div-1-1{
+    border:3px solid black;
+    padding:60px;
+    align-items: center;
+    border-right: none;
+    background-color: aquamarine;
+}
+.div-1-2{
+    border:3px solid black;
+    padding:60px;
+    align-items: center;
+    border-left: none;
+    background-color: aquamarine;
+}
+.div-1 .b1{
+   background-color: rgb(245, 115, 115);
+   border:2px solid black;
+   height:40px;
+   width:200px;
+   border-radius: 20px;
+   margin-bottom: 8px;
+   font-size:15px;
+   color: white;
+   font-weight: bold;
+}
+.div-1 .b1 i{
+    margin-left: 50px;
+}
+.div-1 .b2{
+    border:2px solid black;
+    height:40px;
+    width:200px;
+    border-radius: 20px;
+    margin-top: 8px;
+    font-size:15px;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    background-color: rgb(140, 140, 206);
+ }
+ .div-1 .b2 i{
+    margin-left: 20px;
+}
+ .div-1 .b3{
+    background-color: rgb(117, 209, 154);
+    border:2px solid black;
+    height:40px;
+    width:200px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    font-size:15px;
+    font-weight: bold;
+    color: white;
+ }
+ .div-1 .b3 i{
+    margin-left: 20px;
+}
+ .div-1 .b4{
+    background-color: rgb(211, 116, 235);
+    border:2px solid black;
+    height:40px;
+    width:200px;
+    border-radius: 20px;
+    margin-top:8px;
+    font-size:15px;
+    font-weight: bold;
+    color: white;
+ }
+ .div-1 .b4 i{
+    margin-left:40px;
+}
+/*----TASK-1 ENDS-------*/
+
+/*-----Task-2 STARTS-----*/
+.p2{
+    color:rgb(9, 9, 128);
+    font-weight:bolder;
+    text-align: center;
+    font-size: larger;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+.div-2{
+    background-color:rgba(130, 156, 130, 0.939);
+    border:1px solid black;
+    height:500px;
+    width:100%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+ 
+}
+.div-2 div{
+    height:450px;
+    width:320px;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px rgb(85, 81, 81);
+    background-color: rgb(255, 255, 255);
+}
+.div-2 img{
+    height:250px;
+    width:320px;
+    margin-bottom: 5px;
+}
+.div-2 h4{
+    text-align: center;
+    margin-bottom: 5px;
+    color:rgb(21, 66, 51);
+    font-weight: bold;
+}
+.div-2 p{
+    text-align:center;
+    margin-top: 3px;
+    width:200px;
+    margin:0 auto;
+    margin-bottom: 5px;
+    color:black
+}
+.div-2 h3{
+    text-align: center;
+    color:rgb(182, 37, 122)
+}
+.div-2 .rating{
+   height:20px;
+   width:120px;
+   margin:0 auto;
+   border: none;
+   box-shadow: none;
+}
+.div-2 .last{
+    margin-top:25px;
+    background-color: blue;
+    padding : 12px;
+    width:100%;
+    box-sizing: border-box;
+}
+/*----TASK 2 ENDS---------------*/ 
+
+/*---------TASK 3 STARTS----------*/
+.div-3
+{
+    display: flex;
+    justify-content: space-around;
+}
+.div-3 div{
+    height:500px;
+    width:500px;
+    border:3px solid rgb(87, 2, 2);
+}
+.div-3-1{
+    text-align: center;
+}
+.abc{
+   width:80%;
+   box-sizing: border-box;
+   padding:10px;
+   margin-top: 20px;
+   border: 2px solid green;
+}
+.div-3 .div-3-1 img{
+    border-radius:50%;
+    height:250px;
+    width:250px;
+    margin-top:20px;
+}
+.div-3-2{
+    text-align: center;
+}
+.div-3-2 .abc{
+    margin-top:5px;
+}
+.div-3-2 p{
+    margin-top: 15px;
+}
+/*----------TASK 3 ENDS----------*/
+
+/*----------TASK 4 STARTS---------*/
+.days-of-week,.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+
+}
+.calendar div{
+    border:1px solid black;
+    align-items:center;
+    text-align: center;
+    padding:20px;
+    background-color: rgb(191, 126, 126);
+}
+
+.days-of-week div{
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+.month{
+    background-color: rgb(38, 82, 201);
+    color:rgb(255, 255, 255);
+    width:100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.month p{
+    font-size: 25px;
+    padding:20px;
+}
+.day{
+    background-color: aquamarine;
+}
+/*-----TASK 4 ENDS------------*/
+
+/*----------TASK 5 STARTS--------*/
+.div-6{
+    border:1px solid black;
+    height:340px;
+    width:100%;
+    box-sizing:border-box;
+    background-color: rgb(110, 103, 103);
+}
+.div-6-1{
+    width:90%;
+    height:130px;
+    border: 1px solid black;
+    margin:0 auto;
+    padding:10px;
+    margin-top:10px;
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(205, 163, 56);
+}
+.div-6-2{
+    width:90%;
+    height:130px;
+    border: 1px solid black;
+    margin:0 auto;
+    padding: 10px;
+    margin-top: 10px;
+    display : flex;
+    justify-content: center;
+    background-color: rgb(205, 163, 56);
+}
+.div-6-1 div,.div-6-2 div{
+    border:1px solid black;
+    height:100px;
+    width:100px;
+    margin:10px;
+    background-color: aliceblue;
+}
+/*----------TASK 5 ENDS--------*/
+
+/*----------TASK 6 STARTS--------*/
+.div-66{
+    width:100%;
+    box-sizing: border-box;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    border:7px solid blue;
+}
+.div-66 img{
+    height:400px;
+    width:50%;
+}
+.div-661{
+    width:400px;
+    margin:0 auto;
+    margin-top:90px;
+}
+.p661{
+    padding:5px;
+}
+.div-661 h2{
+    padding:5px;
+    font-weight: bolder;
+    color:blue;
+    font-size:40px;
+}
+.div-661 .bt1{
+    padding:15px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border:2px solid blue;
+    background-color: aliceblue;
+    color:rgb(0, 33, 62);
+}
+/*----------TASK 6 ENDS--------*/
+
+/*----------TASK 7 STARTS--------*/
+.div-7{
+    width:100%;
+    box-sizing: border-box;
+    height:220px;
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(14, 14, 47);
+    color:white;
+}
+.div-7 div{
+    height:100px;
+    margin-top: 30px;
+    width:300px;
+    padding : 20px;
+}
+.div-7 div p {
+    padding : 10px;
+    font-size: 14px;
+}
+#bttn{
+    background-color: rgb(14, 14, 47);
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    margin-left:10px;
+}
+.div-72{
+    width:100%;
+    box-sizing: border-box;
+    background-color: rgb(14, 14, 47);
+    color:white;
+    margin-top:1px;
+}
+.div-72 p{
+    font-size: 12px;
+    margin-left:20px;
+    padding:20px;
+}
+
+hr{
+    height:10px;
+    margin-top: 15px;
+    background-color: black;
+}
+/*--------TASK 7 ENDS-----------*/
+
+/*---------TASK * STARTS----------*/
